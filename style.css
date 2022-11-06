@@ -1,0 +1,96 @@
+p {
+    border: 20px solid blue;
+
+}
+
+body {
+    font-family: 'advent pro', sans-serif;
+    padding: 500;
+    margin: 300px;
+}
+
+nav {
+    overflow: hidden;
+    position: fixed;
+    background-color: aqua;
+    width: 100%;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+    box-shadow: inset 0px -1px 0px;
+
+}
+
+#bluebordred {
+    color:midnightblue;
+    text-align: end;
+
+
+}
+
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+
+
+
+
+header {
+    background: #55d6aa;
+
+}
+
+
+.section {
+    text-align: left;
+
+}
+
+header li a {
+
+    text-decoration: none;
+    text-align: left;
+    padding: 50px 30px;
+    border: #55d6aa;
+}
+
+.nav-icon {
+
+    display: flex ;
+    text-decoration: none;
+    align-items: right;
+    margin-right: 20px;
+}
+ .nav-icon span {
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 25px;
+    font-weight: 400;
+
+ }
+ .hamburger {
+    display: none;
+    
+ }
+ .navlinks-container a {
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: 100;
+    display: inline-block;
+    position: relative;
+
+
+ }
